@@ -131,8 +131,6 @@ class AreaStack extends PureComponent {
                                     key={area.key}
                                     fill={area.color}
                                     {...svgs[index]}
-                                    animate={animate}
-                                    animationDuration={animationDuration}
                                     d={area.path}
                                 />
                             ))}

@@ -115,8 +115,6 @@ class ChartGrouped extends PureComponent {
                                         {...svg}
                                         {...pathSvg}
                                         d={path}
-                                        animate={animate}
-                                        animationDuration={animationDuration}
                                     />
                                 )
                             })}

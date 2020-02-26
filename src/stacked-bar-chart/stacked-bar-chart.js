@@ -215,8 +215,6 @@ class BarChart extends PureComponent {
                                         fill={bar.color}
                                         {...svg}
                                         d={bar.path}
-                                        animate={animate}
-                                        animationDuration={animationDuration}
                                     />
                                 )
                             })}
